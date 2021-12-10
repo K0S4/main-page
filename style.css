@@ -25,7 +25,7 @@ body{
 
 .main{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 1rem;
     width: 80%;
 }
@@ -78,4 +78,24 @@ body{
 main{
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 300px) {
+
+    .main{
+        grid-template-columns: repeat(auto-fit, minmax(100%,1fr));
+    }
+
+    .title{
+        font-size: 1rem;
+    }
+
+    .card-title{
+        font-size: 1rem;
+    }
+
+    .card-description{
+        font-size: 0.75rem;
+    }
+
 }
