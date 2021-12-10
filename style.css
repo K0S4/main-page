@@ -48,6 +48,7 @@ body{
 .card-title{
     font-family: 'Lobster', cursive;
     font-size: 1.5rem;
+    text-align: center;
 }
 .card-description{
     margin: 0;
